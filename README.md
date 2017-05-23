@@ -1,0 +1,2 @@
+# coreExamples
+Core spec examples 

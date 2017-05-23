@@ -125,39 +125,5 @@
    "if": ["oic.if.a", "oic.if.baseline"],
    "p": {"bm": 3},
    "eps": [{"ep": "coaps://[2001:db8:a::b1d4]:33333"}]
- },
-
-
- {
-   "anchor": "ocf://2983844a-5893-468b-bac93957ddf7",
-   "href": "/oic/res",
-   "rt": ["oic.wk.res"],
-   "if": ["oic.if.ll", "oic.if.baseline"],
-   "p": {"bm": 3},
-   "eps": [{"ep": "coaps://[2001:db8:a::b1d4]:44444"}]
- }, 
- {
-   "anchor": "ocf://2983844a-5893-468b-bac93957ddf7",
-   "href": "/oic/p",
-   "rt": ["oic.wk.p"],
-   "if": ["oic.if.r", "oic.if.baseline"],
-   "p": {"bm": 3},
-   "eps": [{"ep": "coaps://[2001:db8:a::b1d4]:44444"}]
- },
- {
-   "anchor": "ocf://2983844a-5893-468b-bac93957ddf7",
-   "href": "/oic/d",
-   "rt": ["oic.wk.d", "oic.d.light", "oic.d.virtual" ],
-   "if": ["oic.if.r", "oic.if.baseline"],
-   "p": {"bm": 3},
-   "eps": [{"ep": "coaps://[2001:db8:a::b1d4]:44444"}]
- },
- {
-   "anchor": "ocf://2983844a-5893-468b-bac93957ddf7",
-   "href": "/myLight",
-   "rt": ["oic.r.switch.binary"],
-   "if": ["oic.if.a", "oic.if.baseline"],
-   "p": {"bm": 3},
-   "eps": [{"ep": "coaps://[2001:db8:a::b1d4]:44444"}]
  }
 ]

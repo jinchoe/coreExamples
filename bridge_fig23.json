@@ -1,8 +1,7 @@
 [
  {
-   "anchor": "ocf://e61c3e6b-9c54-4b81-8ce5-f9039c1d04d9/oic/res", 
+   "anchor": "ocf://e61c3e6b-9c54-4b81-8ce5-f9039c1d04d9", 
    "href": "/oic/res", 
-   "rel": "self",
    "rt": ["oic.wk.res"],
    "if": ["oic.if.ll", "oic.if.baseline"],
    "p": {"bm": 3},

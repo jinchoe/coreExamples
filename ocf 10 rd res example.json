@@ -87,7 +87,7 @@
  {
    "anchor": "ocf://dc70373c-1e8d-4fb3-962e-017eaa863989",
    "href": "/oic/d",
-   "rt": ["oic.wk.d", "oic.d.light", "oic.d.virtual"],
+   "rt": ["oic.wk.d", "oic.d.light"],
    "if": ["oic.if.r", "oic.if.baseline"],
    "p": {"bm": 3},
    "eps": [{"ep": "coap://[2001:db8:b::c2e5]:66666"}, 

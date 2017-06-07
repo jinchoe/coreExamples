@@ -4,7 +4,7 @@
     "links": [
       {	 
         "anchor": "coap://[2001:db8:a::b1d4]:77777",
-        "href": "coap://[2001:db8:a::b1d4]:77777/oic/res",
+        "href": "/oic/res",
         "rel": "self",
         "rt": ["oic.wk.res"],
         "if": ["oic.if.ll", "oic.if.baseline"],
@@ -12,63 +12,63 @@
       }, 
       {
         "anchor": "coap://[2001:db8:a::b1d4]:77777",
-        "href": "coap://[2001:db8:a::b1d4]:77777/oic/d",
+        "href": "/oic/d",
         "rt": ["oic.wk.d", "oic.d.fan"],
         "if": ["oic.if.r", "oic.if.baseline"],
         "p": {"bm": 3, "sec": false, "port": 33333}
       }, 
       {
         "anchor": "coaps://[2001:db8:a::b1d4]:33333",
-        "href": "coaps://[2001:db8:a::b1d4]:33333/oic/p",
+        "href": "/oic/p",
         "rt": ["oic.wk.p"],
         "if": ["oic.if.r", "oic.if.baseline"],
         "p": {"bm": 3, "sec": true, "port": 33333}
       },
       {
         "anchor": "coaps://[2001:db8:a::b1d4]:33333",
-        "href": "coaps://[2001:db8:a::b1d4]:33333/myFanIntrospection",
+        "href": "/myFanIntrospection",
         "rt": ["oic.wk.introspection"],
         "if": ["oic.if.r", "oic.if.baseline"],
         "p": {"bm": 3, "sec": true, "port": 33333}
       },  
       {
         "anchor": "coaps://[2001:db8:a::b1d4]:33333",
-        "href": "coaps://[2001:db8:a::b1d4]:33333/oic/rd",
+        "href": "/oic/rd",
         "rt": ["oic.wk.rd"],
         "if": ["oic.if.baseline"],
         "p": {"bm": 3, "sec": true, "port": 33333}
       },  
       {
         "anchor": "coaps://[2001:db8:a::b1d4]:33333",
-        "href": "coaps://[2001:db8:a::b1d4]:33333/myFanSwitch",
+        "href": "/myFanSwitch",
         "rt": ["oic.r.switch.binary"],
         "if": ["oic.if.a", "oic.if.baseline"],
         "p": {"bm": 3, "sec": true, "port": 33333}
       },
       {
         "anchor": "coap://[2001:db8:a::b1d4]:77777",
-        "href": "coap://[2001:db8:a::b1d4]:77777/oic/sec/doxm",
+        "href": "/oic/sec/doxm",
         "rt": ["oic.r.doxm"],
         "if": ["oic.if.baseline"],
         "p": {"bm": 1, "sec": false, "port": 33333}
       },
       {
         "anchor": "coaps://[2001:db8:a::b1d4]:33333",
-        "href": "coaps://[2001:db8:a::b1d4]:33333/oic/sec/pstat",
+        "href": "/oic/sec/pstat",
         "rt": ["oic.r.pstat"],
         "if": ["oic.if.baseline"],
         "p": {"bm": 1, "sec": true, "port": 33333}
       },
       {
         "anchor": "coaps://[2001:db8:a::b1d4]:33333",
-        "href": "coaps://[2001:db8:a::b1d4]:33333/oic/sec/cred",
+        "href": "/oic/sec/cred",
         "rt": ["oic.r.cred"],
         "if": ["oic.if.baseline"],
         "p": {"bm": 1, "sec": true, "port": 33333}
       },
       {
         "anchor": "coaps://[2001:db8:a::b1d4]:33333",
-        "href": "coaps://[2001:db8:a::b1d4]:33333/oic/sec/acl2",
+        "href": "/oic/sec/acl2",
         "rt": ["oic.r.acl2"],
         "if": ["oic.if.baseline"],
         "p": {"bm": 1, "sec": true, "port": 33333}

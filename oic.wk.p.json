@@ -1,0 +1,6 @@
+{
+  "rt": ["oic.wk.p"],
+  "if": ["oic.if.r", "oic.if.baseline"],
+  "pi": "54919CA5-4101-4AE4-595B-353C51AA983C", 
+  "mnmn": "STRK, Inc"
+}

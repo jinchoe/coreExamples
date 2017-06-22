@@ -1,6 +1,6 @@
 {
   "rt": ["oic.wk.res"],
-  "if": ["oic.if.ll", "oic.if.b"],
+  "if": ["oic.if.ll", "oic.if.baseline"],
   "links": [
     {
       "anchor": "ocf://dc70373c-1e8d-4fb3-962e-017eaa863989",

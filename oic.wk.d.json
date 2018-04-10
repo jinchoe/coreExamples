@@ -3,7 +3,7 @@
   "if": ["oic.if.r", "oic.if.baseline"],
   "n": "myDeskLamp", 
   "di": "dc70373c-1e8d-4fb3-962e-017eaa863989", 
-  "icv": "ocf.1.0.0",
+  "icv": "ocf.1.0.1",
   "dmv": "ocf.res.1.0.0, ocf.sh.1.0.0",
   "piid": "6F0AAC04-2BB0-468D-B57C-16570A26AE48"
 }
